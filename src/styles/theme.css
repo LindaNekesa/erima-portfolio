@@ -1,0 +1,14 @@
+/* styles/theme.css */
+/* Color variables and theme overrides */
+
+:root {
+  --primary-color: #2563eb; /* blue-600 */
+  --secondary-color: #10b981; /* emerald-500 */
+  --accent-color: #f59e0b; /* amber-500 */
+}
+
+.dark {
+  --primary-color: #3b82f6;
+  --secondary-color: #34d399;
+  --accent-color: #fbbf24;
+}
