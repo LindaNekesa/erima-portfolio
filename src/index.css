@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional Global Styles */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
+
+h1, h2, h3, h4 {
+  @apply font-bold text-gray-900;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800 underline transition;
+}
+
+section {
+  @apply py-12 px-6;
+}
+
